@@ -9,9 +9,9 @@ module comparator_3bit
   output A_less
 );
 
-  assign A_greater = (A > B)? 1'b1 : 1'b0;
+  assign A_greater = (A < B)? 1'b1 : 1'b0;
   assign A_equal = (A == B)? 1'b1 : 1'b0;
-  assign A_less = (A < B)? 1'b1 : 1'b0;
+  assign A_less = (A > B)? 1'b1 : 1'b0;
 
 endmodule
 
