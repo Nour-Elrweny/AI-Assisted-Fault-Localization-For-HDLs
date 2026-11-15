@@ -1,0 +1,79 @@
+DEBUG: true
+start_time: 0
+end_time: 1000
+time_step: 10
+OUTPUT: cov_test
+REPORT: CoverageReport
+THREAD_NUM: 6
+origin_source_files:
+- div_16bit.v
+testbench: new_testbench_enhanced.v
+testbench_read_only: testbench.v
+source_dir: ''
+project_dir: .
+project_name: div_16bit
+overall_base_dir: overall_coverage_analysis
+buggy_versions:
+  div_16bit_ExprDelete_120_24:
+  - mantra/div_16bit_ExprDelete_120_24/div_16bit_ExprDelete_120_24.v
+  div_16bit_ExprDelete_124_25:
+  - mantra/div_16bit_ExprDelete_124_25/div_16bit_ExprDelete_124_25.v
+  div_16bit_ExprDelete_132_26:
+  - mantra/div_16bit_ExprDelete_132_26/div_16bit_ExprDelete_132_26.v
+  div_16bit_ExprDelete_133_26:
+  - mantra/div_16bit_ExprDelete_133_26/div_16bit_ExprDelete_133_26.v
+  div_16bit_ExprInsert_105_23:
+  - mantra/div_16bit_ExprInsert_105_23/div_16bit_ExprInsert_105_23.v
+  div_16bit_ExprInsert_124_25:
+  - mantra/div_16bit_ExprInsert_124_25/div_16bit_ExprInsert_124_25.v
+  div_16bit_ExprInsert_132_26:
+  - mantra/div_16bit_ExprInsert_132_26/div_16bit_ExprInsert_132_26.v
+  div_16bit_IOFlip2_24_4:
+  - mantra/div_16bit_IOFlip2_24_4/div_16bit_IOFlip2_24_4.v
+  div_16bit_IOFlip2_33_5:
+  - mantra/div_16bit_IOFlip2_33_5/div_16bit_IOFlip2_33_5.v
+  div_16bit_PartselectDelete_147_35:
+  - mantra/div_16bit_PartselectDelete_147_35/div_16bit_PartselectDelete_147_35.v
+  div_16bit_PartselectUpdate_150_35:
+  - mantra/div_16bit_PartselectUpdate_150_35/div_16bit_PartselectUpdate_150_35.v
+  div_16bit_PartselectUpdate_158_36:
+  - mantra/div_16bit_PartselectUpdate_158_36/div_16bit_PartselectUpdate_158_36.v
+  div_16bit_PointerInsert_102_23:
+  - mantra/div_16bit_PointerInsert_102_23/div_16bit_PointerInsert_102_23.v
+  div_16bit_PointerInsert_110_23:
+  - mantra/div_16bit_PointerInsert_110_23/div_16bit_PointerInsert_110_23.v
+  div_16bit_PointerInsert_118_24:
+  - mantra/div_16bit_PointerInsert_118_24/div_16bit_PointerInsert_118_24.v
+  div_16bit_PointerInsert_130_26:
+  - mantra/div_16bit_PointerInsert_130_26/div_16bit_PointerInsert_130_26.v
+  div_16bit_PointerInsert_145_35:
+  - mantra/div_16bit_PointerInsert_145_35/div_16bit_PointerInsert_145_35.v
+  div_16bit_PointerInsert_153_36:
+  - mantra/div_16bit_PointerInsert_153_36/div_16bit_PointerInsert_153_36.v
+  div_16bit_PointerInsert_72_15:
+  - mantra/div_16bit_PointerInsert_72_15/div_16bit_PointerInsert_72_15.v
+  div_16bit_PointerInsert_77_16:
+  - mantra/div_16bit_PointerInsert_77_16/div_16bit_PointerInsert_77_16.v
+  div_16bit_PointerInsert_79_16:
+  - mantra/div_16bit_PointerInsert_79_16/div_16bit_PointerInsert_79_16.v
+  div_16bit_PointerInsert_94_22:
+  - mantra/div_16bit_PointerInsert_94_22/div_16bit_PointerInsert_94_22.v
+  div_16bit_ExprUpdate_105_23:
+  - mantra/div_16bit_ExprUpdate_105_23/div_16bit_ExprUpdate_105_23.v
+  div_16bit_ExprUpdate_120_24:
+  - mantra/div_16bit_ExprUpdate_120_24/div_16bit_ExprUpdate_120_24.v
+  div_16bit_ExprUpdate_124_25:
+  - mantra/div_16bit_ExprUpdate_124_25/div_16bit_ExprUpdate_124_25.v
+  div_16bit_ExprUpdate_132_26:
+  - mantra/div_16bit_ExprUpdate_132_26/div_16bit_ExprUpdate_132_26.v
+  div_16bit_ExprUpdate_133_26:
+  - mantra/div_16bit_ExprUpdate_133_26/div_16bit_ExprUpdate_133_26.v
+output_filename: output.txt
+got_df_matrix_errors: null
+versions_got_exam_result: null
+origin_origin_build_directory: null
+origin_origin_project_dir: null
+origin_version_name: v0_origin
+origin_base_dir: overall_coverage_analysis/v0_origin
+origin_build_directory: overall_coverage_analysis/v0_origin/build
+mantra_base_dir: overall_coverage_analysis/v0_origin/mantra

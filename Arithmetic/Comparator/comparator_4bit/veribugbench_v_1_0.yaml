@@ -1,0 +1,57 @@
+DEBUG: true
+start_time: 0
+end_time: 1000
+time_step: 10
+OUTPUT: cov_test
+REPORT: CoverageReport
+THREAD_NUM: 6
+origin_source_files:
+- comparator_4bit.v
+testbench: new_testbench_enhanced.v
+testbench_read_only: testbench.v
+source_dir: ''
+project_dir: .
+project_name: comparator_4bit
+overall_base_dir: overall_coverage_analysis
+buggy_versions:
+  comparator_4bit_ExprDelete_34_12:
+  - mantra/comparator_4bit_ExprDelete_34_12/comparator_4bit_ExprDelete_34_12.v
+  comparator_4bit_ExprDelete_41_15:
+  - mantra/comparator_4bit_ExprDelete_41_15/comparator_4bit_ExprDelete_41_15.v
+  comparator_4bit_ExprDelete_42_15:
+  - mantra/comparator_4bit_ExprDelete_42_15/comparator_4bit_ExprDelete_42_15.v
+  comparator_4bit_ExprDelete_44_15:
+  - mantra/comparator_4bit_ExprDelete_44_15/comparator_4bit_ExprDelete_44_15.v
+  comparator_4bit_ExprDelete_51_17:
+  - mantra/comparator_4bit_ExprDelete_51_17/comparator_4bit_ExprDelete_51_17.v
+  comparator_4bit_ExprInsert_34_12:
+  - mantra/comparator_4bit_ExprInsert_34_12/comparator_4bit_ExprInsert_34_12.v
+  comparator_4bit_ExprInsert_41_15:
+  - mantra/comparator_4bit_ExprInsert_41_15/comparator_4bit_ExprInsert_41_15.v
+  comparator_4bit_ExprInsert_42_15:
+  - mantra/comparator_4bit_ExprInsert_42_15/comparator_4bit_ExprInsert_42_15.v
+  comparator_4bit_ExprInsert_44_15:
+  - mantra/comparator_4bit_ExprInsert_44_15/comparator_4bit_ExprInsert_44_15.v
+  comparator_4bit_ExprInsert_51_17:
+  - mantra/comparator_4bit_ExprInsert_51_17/comparator_4bit_ExprInsert_51_17.v
+  comparator_4bit_PointerInsert_36_12:
+  - mantra/comparator_4bit_PointerInsert_36_12/comparator_4bit_PointerInsert_36_12.v
+  comparator_4bit_PointerInsert_45_15:
+  - mantra/comparator_4bit_PointerInsert_45_15/comparator_4bit_PointerInsert_45_15.v
+  comparator_4bit_PointerInsert_52_17:
+  - mantra/comparator_4bit_PointerInsert_52_17/comparator_4bit_PointerInsert_52_17.v
+  comparator_4bit_ExprUpdate_34_12:
+  - mantra/comparator_4bit_ExprUpdate_34_12/comparator_4bit_ExprUpdate_34_12.v
+  comparator_4bit_ExprUpdate_44_15:
+  - mantra/comparator_4bit_ExprUpdate_44_15/comparator_4bit_ExprUpdate_44_15.v
+  comparator_4bit_ExprUpdate_51_17:
+  - mantra/comparator_4bit_ExprUpdate_51_17/comparator_4bit_ExprUpdate_51_17.v
+output_filename: output.txt
+got_df_matrix_errors: null
+versions_got_exam_result: null
+origin_origin_build_directory: null
+origin_origin_project_dir: null
+origin_version_name: v0_origin
+origin_base_dir: overall_coverage_analysis/v0_origin
+origin_build_directory: overall_coverage_analysis/v0_origin/build
+mantra_base_dir: overall_coverage_analysis/v0_origin/mantra
